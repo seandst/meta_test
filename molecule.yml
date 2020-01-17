@@ -25,7 +25,7 @@ provisioner:
       destroy: ../../../../tests/destroy-docker.yml
     openstack:
       create: ../../../../tests/create-openstack.yml
-      destroy: ../../../../tests/destroy-docker.yml
+      destroy: ../../../../tests/destroy-openstack.yml
   config_options:
     defaults:
       stdout_callback: yaml
