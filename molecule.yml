@@ -1,7 +1,8 @@
 dependency:
   name: galaxy
   options:
-    role-file: ../../tests/requirements.yml  # relative to the role dir
+    role-file: ../../requirements.yml  # relative to the role dir
+    requirements-file: ../../requirements.yml
 lint: |
   set -e
   yamllint -c ../../tests/yamllint.yml  .  # relative to role dir
